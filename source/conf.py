@@ -33,3 +33,11 @@ locale_dirs = ["../locale/"]
 gettext_compact = False
 
 language = "en"
+
+# -- Multiversion -------------------------------------------------
+
+smv_branch_whitelist = r"^(16\.0|17\.0|18\.0|19\.0|main)$"
+smv_remote_whitelist = r"^origin$"
+
+# Optional: mark the latest version
+smv_latest_version = "19.0"
