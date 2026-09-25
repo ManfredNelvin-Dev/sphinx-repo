@@ -1,0 +1,13 @@
+# Virtual environment
+venv/
+
+# Sphinx build output
+build/
+_build/
+
+# Python
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
